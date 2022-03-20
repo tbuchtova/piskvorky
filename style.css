@@ -1,8 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+h1 {
+  font-family: Lobster;
+  margin: 0px;
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: 300;
+}
 
-/* gradient #615dad #ffc8da
-text #ffffff
-podkladová tmavě modrá #283e50
-button pravidla #1fcca4, hover #1cbb96
-button hrát #0197f6, hover #0090e9
+body {
+  height: 100%;
+  background: linear-gradient(#615dad, #ffc8da) no-repeat fixed;
+  color: #ffffff;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.obsah p {
+  margin: 0;
+  padding: 30px 15px;
+  line-height: 1.5em;
+}
+
+.obsah {
+  margin: 80px auto;
+  max-width: 370px;
+}
+
+.picture img {
+  width: 100%;
+  display: block;
+  border-radius: 7px 7px 0 0;
+}
+
+.text-area {
+  background-color: #283e50;
+}
+
+.button {
+  padding: 15px;
+}
+
+.buttons__rules {
+  background-color: #1fcca4;
+}
+
+.buttons__rules:hover {
+  background-color: #1cbb96;
+}
+
+.buttons__play {
+  background-color: #0197f6;
+}
+
+.buttons__play:hover {
+  background-color: #0090e9;
+}
