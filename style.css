@@ -3,7 +3,7 @@
 h1 {
   font-family: Lobster;
   margin: 0px;
-  padding-top: 20px;
+  padding-top: 35px;
   font-size: 50px;
   font-weight: 300;
 }
@@ -67,10 +67,34 @@ a {
 
 .rules {
   text-align: left;
-  padding: 20px;
+  padding: 25px 35px 0 35px;
   line-height: 1.5em;
 }
 
 .rules li {
   padding-bottom: 15px;
+}
+
+ol {
+  margin: 0;
+}
+
+li img {
+  filter: invert(100%);
+  height: 1em;
+  width: 1em;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+figcaption {
+  font-style: italic;
+  line-height: normal;
+  padding-top: 5px;
+}
+
+figure img {
+  width: 100%;
 }
