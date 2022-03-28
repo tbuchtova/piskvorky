@@ -30,6 +30,7 @@ a {
 .obsah {
   margin: 80px auto;
   max-width: 370px;
+  border-radius: 7px 7px 0 0;
 }
 
 .picture img {
@@ -46,11 +47,13 @@ a {
   padding: 15px;
 }
 
-.buttons__rules {
+.buttons__rules,
+.buttons__home {
   background-color: #1fcca4;
 }
 
-.buttons__rules:hover {
+.buttons__rules:hover,
+.buttons__home:hover {
   background-color: #1cbb96;
 }
 
@@ -60,4 +63,14 @@ a {
 
 .buttons__play:hover {
   background-color: #0090e9;
+}
+
+.rules {
+  text-align: left;
+  padding: 20px;
+  line-height: 1.5em;
+}
+
+.rules li {
+  padding-bottom: 15px;
 }
