@@ -96,5 +96,25 @@ figcaption {
 }
 
 figure img {
-  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 800px) {
+  #wrapper-index {
+    max-width: 370px;
+  }
+
+  .obsah {
+    max-width: 650px;
+  }
+
+  .preview {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  figure {
+    margin: 20px;
+    flex: 0 0 calc((50% - 40px));
+  }
 }
