@@ -107,14 +107,31 @@ figure img {
   margin: 0 auto;
 }
 
+.game h1 {
+  margin-bottom: 20px;
+}
+
 .game__menu {
   display: flex;
   justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.game__menu--player img {
+  filter: invert(100%);
+  display: inline-block;
+  position: relative;
+  top: 3px;
 }
 
 #home,
 #restart {
   border-radius: 5px;
+}
+
+#home {
+  margin-right: 5px;
 }
 
 .game__field {
