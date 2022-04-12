@@ -53,7 +53,9 @@ a {
 }
 
 .buttons__rules:hover,
-.buttons__home:hover {
+.buttons__home:hover,
+.buttons__rules:focus,
+.buttons__home:focus {
   background-color: #1cbb96;
 }
 
@@ -61,7 +63,8 @@ a {
   background-color: #0197f6;
 }
 
-.buttons__play:hover {
+.buttons__play:hover,
+.buttons__play:focus {
   background-color: #0090e9;
 }
 
@@ -99,6 +102,42 @@ figure img {
   max-width: 100%;
 }
 
+.game {
+  max-width: 80vmin;
+  margin: 0 auto;
+}
+
+.game__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+#home,
+#restart {
+  border-radius: 5px;
+}
+
+.game__field {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.game__field button {
+  background-color: white;
+  width: 10%;
+  aspect-ratio: 1 / 1;
+  opacity: 0.5;
+  border: 1px solid black;
+}
+
+.game__field button:hover,
+.game__fiels button:focus {
+  background-color: white;
+  opacity: 0.4;
+}
+
 @media (min-width: 800px) {
   #wrapper-index {
     max-width: 370px;
@@ -115,6 +154,6 @@ figure img {
 
   figure {
     margin: 20px;
-    flex: 0 0 calc((50% - 40px));
+    flex: 0 0 calc(50% - 40px);
   }
 }
