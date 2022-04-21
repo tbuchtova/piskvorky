@@ -155,6 +155,31 @@ figure img {
   opacity: 0.4;
 }
 
+@keyframes zoom {
+  0% {
+    background-size: 0;
+  }
+  100% {
+    background-size: 75%;
+  }
+}
+
+.game__field--circle {
+  background-image: url('img/circle.svg');
+  background-repeat: no-repeat;
+  background-size: 75%;
+  animation: zoom 0.25s;
+  background-position: center;
+}
+
+.game__field--cross {
+  background-image: url('img/cross.svg');
+  background-repeat: no-repeat;
+  background-size: 75%;
+  animation: zoom 0.25s;
+  background-position: center;
+}
+
 @media (min-width: 800px) {
   #wrapper-index {
     max-width: 370px;
